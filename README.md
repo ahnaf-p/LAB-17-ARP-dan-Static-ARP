@@ -48,6 +48,9 @@ Minggu 17 Agustus 2025
   
 # Keterangan FLAG di ARP
 D = Dynamic, dibuat otomatis oleh router.  
+
+# Sumber 
+Citraweb - https://citraweb.com/artikel/56/
 X = Disabled, ARP dimatikan.  
 C = Complete, pasangan IP dan MAC valid, sudah ketemu dengan benar.  
 I = Incomplete, router tahu ada IP, tapi belum berhasil dapat MAC address-nya.  
