@@ -43,17 +43,17 @@ Minggu 17 Agustus 2025
 7. Sekarang kita coba ganti IP windows menjadi IP yang sama seperti diatas tapi static.  
 ![a](IMAGES/arplist.PNG)  
 8. Saat IP windows sudah di ubah, winbox akan langsung DC dan kita tidak akan bisa login ke winbox.  
-![a](IMAGES/wrong.PNG)
+![a](IMAGES/wrong.PNG)  
 ![a](IMAGES/dc.PNG)  
   
 # Keterangan FLAG di ARP
 D = Dynamic, dibuat otomatis oleh router.  
-
-# Sumber 
-Citraweb - https://citraweb.com/artikel/56/
 X = Disabled, ARP dimatikan.  
 C = Complete, pasangan IP dan MAC valid, sudah ketemu dengan benar.  
 I = Incomplete, router tahu ada IP, tapi belum berhasil dapat MAC address-nya.  
 
 # Kesimpulan  
 Pada dasarnya, Address Resolution Protocol berfungsi untuk menerjemahkan alamat IP menjadi alamat fisik (MAC Address). ARP memiliki dua jenis, yaitu dynamic dan static. ARP dynamic bersifat otomatis dan praktis namun kurang aman karena klien bebas mengganti IP. Sebaliknya, ARP static lebih aman karena hanya mengizinkan kombinasi IP–MAC yang sesuai, meskipun kurang efisien jika jumlah klien banyak.  
+  
+# Sumber 
+Citraweb - https://citraweb.com/artikel/56/
